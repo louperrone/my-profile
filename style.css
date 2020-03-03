@@ -1,0 +1,104 @@
+
+h1 {
+    color: #EF798A;
+    font-size: 44px;
+    font-family: 'Shadows Into Light Two';
+    font-weight: lighter;
+}
+div{
+   background-color: #FCEADE;
+   text-align: center;
+   width: 700px;
+   margin: 20px auto;
+   padding: 20px 20px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 30px rgba(0,0,0,0.3)
+}
+#GT{
+	color: #102542;
+	font-size: 56px;
+}
+#little-title{
+  font-size: 34px;
+ }
+p{
+	font-size: 26px;
+	color: #102542;
+	font-family: 'avenir';
+    font-weight: lighter;
+}
+#profile-pic{
+	width: 200px;
+	height: 250px;
+	border-radius: 5px;
+}
+.voyage{
+	width: 200px;
+	height: 250px;
+	margin: 5px 5px;
+}
+.FOOD{
+	width: 200px;
+	height: 250px;
+	margin: 5px 5px;
+}
+.Look{
+	width: 200px;
+	height: 250px;
+	margin: 5px 5px;
+}
+.family{
+	width: 200px;
+	height: 250px;
+	margin: 5px 5px;
+}
+.me{
+	width: 200px;
+	height: 250px;
+	margin: 5px 5px;
+}
+.networks{
+	width: 25px;
+}
+
+#linkedin{
+	width: 50px;
+}
+#contacts li{
+	list-style: none;
+	display: all;
+	color: #EBD2BE
+	font-size:30px;
+	font-family: 'avenir';
+	font-style: lighter;
+}
+#contact a{
+	color: #EF798A;
+	font-size: 20px;
+}
+body{
+	background-image: url(images/fond.jpg);
+	background-size: initial 2000px;
+}
+@media(max-width: 960px){
+	  div{
+     	width: 700px;
+     }
+ }
+
+@media(max-width: 720px){
+       div{
+       	width: 500px;
+       }
+
+}
+@media(max-width: 540px){
+      div{
+      	width: 300px;
+      }
+
+}
+
+
+
+
